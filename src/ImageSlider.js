@@ -5,8 +5,14 @@ export default class ImageSlider extends Component {
     super(); 
     
     this.state = {
-      currentSlideIndex: 0; 
-    }
+      currentSlideIndex: 0
+    };
+  }
+  
+  render(){
+    return( 
+      <p> I am on the slide {this.state.currentSlideIndex} </p>
+      )
   }
   
 }
