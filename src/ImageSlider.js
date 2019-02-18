@@ -14,5 +14,4 @@ export default class ImageSlider extends Component {
       <p> I am on the slide {this.state.currentSlideIndex}</p>
       )
   }
-  
 }
